@@ -5,6 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class BasicClass {
 	WebDriver driver;
 	
@@ -18,6 +20,7 @@ public class BasicClass {
 public void firstTest() {
 	driver.get("chrome://settings/help");
 	driver.close();
+	System.out.println("Code updated");
 	
 	
 }
