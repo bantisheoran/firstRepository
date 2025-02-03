@@ -5,9 +5,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
-public class BasicClass {
+
+public class TestJenkinsAndGit {
 	WebDriver driver;
 	
 	@BeforeTest
