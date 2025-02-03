@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testing.BasicClass">
+      <class name="testing.TestJenkinsAndGit">
         <methods>
-          <include name="baseMethod"/>
           <include name="firstTest"/>
+          <include name="baseMethod"/>
         </methods>
-      </class> <!-- testing.BasicClass -->
+      </class> <!-- testing.TestJenkinsAndGit -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

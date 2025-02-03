@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testing.BasicClass"/>
+      <class name="testing.SimpleClass"/>
+      <class name="testing.TestJenkinsAndGit"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
