@@ -21,6 +21,7 @@ public void firstTest() {
 	driver.get("chrome://settings/help");
 	driver.close();
 	System.out.println("Code updated");
+	System.out.println("Commit");
 	
 	
 }
